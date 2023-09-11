@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Users/aleksandar/Projects/ravendb/ravendb php demo examples/phpunit.xml.dist" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.217916">
+    <testsuite name="All" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.217916">
+      <testsuite name="RavenDB\Tests\basics\CreateDocumentTest" file="/Users/aleksandar/Projects/ravendb/ravendb php demo examples/tests/basics/CreateDocumentTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.217916">
+        <testcase name="testCreateDocument" file="/Users/aleksandar/Projects/ravendb/ravendb php demo examples/tests/basics/CreateDocumentTest.php" line="13" class="RavenDB\Tests\basics\CreateDocumentTest" classname="RavenDB.Tests.basics.CreateDocumentTest" assertions="2" time="0.217916"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

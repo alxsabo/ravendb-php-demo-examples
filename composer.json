@@ -1,4 +1,21 @@
 {
+    "name": "alxsabo/ravendb-php-demo-examples",
+    "type": "library",
+    "description": "RavenDB Demo PHP examples",
+    "keywords": [
+        "ravendb",
+        "php-client",
+        "examples"
+    ],
+    "homepage": "https://github.com/alxsabo/ravendb-php-demo-examples",
+    "authors": [
+        {
+            "name": "Aleksandar Sabo",
+            "email": "alxsabo@gmail.com",
+            "homepage": "https://ravendb.net",
+            "role": "Developer Advocate"
+        }
+    ],
     "require": {
         "ravendb/ravendb-php-client": "^5.2"
     },
@@ -6,5 +23,13 @@
         "psr-4": {
             "RavenDB\\Demo\\": "demo"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RavenDB\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
     }
 }
