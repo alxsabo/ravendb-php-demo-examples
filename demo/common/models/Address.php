@@ -1,0 +1,84 @@
+<?php
+
+namespace RavenDB\Demo\common\models;
+
+class Address
+{
+    private ?String $line1 = null;
+    private ?String $line2 = null;
+    private ?String $city = null;
+    private ?String $region = null;
+    private ?String $postalCode = null;
+    private ?String $country = null;
+    private ?Location $location = null;
+
+    public function getLine1(): ?string
+    {
+        return $this->line1;
+    }
+
+    public function setLine1(?string $line1): void
+    {
+        $this->line1 = $line1;
+    }
+
+    public function getLine2(): ?string
+    {
+        return $this->line2;
+    }
+
+    public function setLine2(?string $line2): void
+    {
+        $this->line2 = $line2;
+    }
+
+    public function getCity(): ?string
+    {
+        return $this->city;
+    }
+
+    public function setCity(?string $city): void
+    {
+        $this->city = $city;
+    }
+
+    public function getRegion(): ?string
+    {
+        return $this->region;
+    }
+
+    public function setRegion(?string $region): void
+    {
+        $this->region = $region;
+    }
+
+    public function getPostalCode(): ?string
+    {
+        return $this->postalCode;
+    }
+
+    public function setPostalCode(?string $postalCode): void
+    {
+        $this->postalCode = $postalCode;
+    }
+
+    public function getCountry(): ?string
+    {
+        return $this->country;
+    }
+
+    public function setCountry(?string $country): void
+    {
+        $this->country = $country;
+    }
+
+    public function getLocation(): ?Location
+    {
+        return $this->location;
+    }
+
+    public function setLocation(?Location $location): void
+    {
+        $this->location = $location;
+    }
+}
