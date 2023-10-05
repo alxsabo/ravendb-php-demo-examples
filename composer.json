@@ -21,7 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "RavenDB\\Demo\\": "demo"
+            "RavenDB\\Demo\\": "demo",
+            "RavenDB\\Tests\\": "tests"
         }
     },
     "autoload-dev": {
