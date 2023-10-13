@@ -22,6 +22,7 @@ class StoreAttachment
         //region Demo
         $session = DocumentStoreHolder::getStore()->openSession();
         try {
+
             //region Step_1
             $stream = $attachment;
 
