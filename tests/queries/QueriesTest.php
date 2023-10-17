@@ -53,7 +53,7 @@ class QueriesTest extends TestCase
         $this->assertNotNull("Anne", $employees[0]->getFirstName());
     }
 
-    public function atestFilteringResultsMultipleConditions(): void
+    public function testFilteringResultsMultipleConditions(): void
     {
         $runParams = new \RavenDB\Demo\queries\filteringResultsMultipleConditions\RunParams();
         $runParams->setCountry("USA");

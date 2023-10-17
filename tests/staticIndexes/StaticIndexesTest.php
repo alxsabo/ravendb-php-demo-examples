@@ -19,7 +19,7 @@ use RavenDB\Tests\RavenTestDriver;
 
 class StaticIndexesTest extends RavenTestDriver
 {
-    public function atestAdditionalSourcesIndex(): void
+    public function testAdditionalSourcesIndex(): void
     {
         DocumentStoreHolder::getStore()->executeIndex(new Products_ByPrice());
         $this->waitForIndexing(DocumentStoreHolder::getStore());
