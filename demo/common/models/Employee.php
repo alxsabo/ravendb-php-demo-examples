@@ -4,21 +4,22 @@ namespace RavenDB\Demo\common\models;
 
 use DateTime;
 use RavenDB\Type\StringArray;
+use Symfony\Component\Serializer\Annotation\SerializedName;
 
 class Employee
 {
     private ?String $id = null;
-    private ?String $lastName = null;
-    private ?String $firstName = null;
-    private ?String $title = null;
-    private ?Address $address = null;
-    private ?DateTime $hiredAt = null;
-    private ?DateTime $birthday = null;
-    private ?String $homePhone = null;
-    private ?String $extension = null;
-    private ?String $reportsTo = null;
-    private ?StringArray $notes = null;
-    private ?StringArray $territories = null;
+    private ?String $LastName = null;
+    private ?String $FirstName = null;
+    private ?String $Title = null;
+    private ?Address $Address = null;
+    private ?DateTime $HiredAt = null;
+    private ?DateTime $Birthday = null;
+    private ?String $HomePhone = null;
+    private ?String $Extension = null;
+    private ?String $ReportsTo = null;
+    private ?StringArray $Notes = null;
+    private ?StringArray $Territories = null;
 
     public function getId(): ?string
     {
@@ -32,111 +33,111 @@ class Employee
 
     public function getLastName(): ?string
     {
-        return $this->lastName;
+        return $this->LastName;
     }
 
-    public function setLastName(?string $lastName): void
+    public function setLastName(?string $LastName): void
     {
-        $this->lastName = $lastName;
+        $this->LastName = $LastName;
     }
 
     public function getFirstName(): ?string
     {
-        return $this->firstName;
+        return $this->FirstName;
     }
 
-    public function setFirstName(?string $firstName): void
+    public function setFirstName(?string $FirstName): void
     {
-        $this->firstName = $firstName;
+        $this->FirstName = $FirstName;
     }
 
     public function getTitle(): ?string
     {
-        return $this->title;
+        return $this->Title;
     }
 
-    public function setTitle(?string $title): void
+    public function setTitle(?string $Title): void
     {
-        $this->title = $title;
+        $this->Title = $Title;
     }
 
     public function getAddress(): ?Address
     {
-        return $this->address;
+        return $this->Address;
     }
 
-    public function setAddress(?Address $address): void
+    public function setAddress(?Address $Address): void
     {
-        $this->address = $address;
+        $this->Address = $Address;
     }
 
     public function getHiredAt(): ?DateTime
     {
-        return $this->hiredAt;
+        return $this->HiredAt;
     }
 
-    public function setHiredAt(?DateTime $hiredAt): void
+    public function setHiredAt(?DateTime $HiredAt): void
     {
-        $this->hiredAt = $hiredAt;
+        $this->HiredAt = $HiredAt;
     }
 
     public function getBirthday(): ?DateTime
     {
-        return $this->birthday;
+        return $this->Birthday;
     }
 
-    public function setBirthday(?DateTime $birthday): void
+    public function setBirthday(?DateTime $Birthday): void
     {
-        $this->birthday = $birthday;
+        $this->Birthday = $Birthday;
     }
 
     public function getHomePhone(): ?string
     {
-        return $this->homePhone;
+        return $this->HomePhone;
     }
 
-    public function setHomePhone(?string $homePhone): void
+    public function setHomePhone(?string $HomePhone): void
     {
-        $this->homePhone = $homePhone;
+        $this->HomePhone = $HomePhone;
     }
 
     public function getExtension(): ?string
     {
-        return $this->extension;
+        return $this->Extension;
     }
 
-    public function setExtension(?string $extension): void
+    public function setExtension(?string $Extension): void
     {
-        $this->extension = $extension;
+        $this->Extension = $Extension;
     }
 
     public function getReportsTo(): ?string
     {
-        return $this->reportsTo;
+        return $this->ReportsTo;
     }
 
-    public function setReportsTo(?string $reportsTo): void
+    public function setReportsTo(?string $ReportsTo): void
     {
-        $this->reportsTo = $reportsTo;
+        $this->ReportsTo = $ReportsTo;
     }
 
     public function getNotes(): ?StringArray
     {
-        return $this->notes;
+        return $this->Notes;
     }
 
-    public function setNotes(?StringArray $notes): void
+    public function setNotes(?StringArray $Notes): void
     {
-        $this->notes = $notes;
+        $this->Notes = $Notes;
     }
 
     public function getTerritories(): ?StringArray
     {
-        return $this->territories;
+        return $this->Territories;
     }
 
-    public function setTerritories(?StringArray $territories): void
+    public function setTerritories(?StringArray $Territories): void
     {
-        $this->territories = $territories;
+        $this->Territories = $Territories;
     }
 }
