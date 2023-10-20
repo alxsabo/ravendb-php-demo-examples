@@ -4,12 +4,12 @@ namespace RavenDB\Demo\common\models;
 
 class Address
 {
-    private ?String $line1 = null;
-    private ?String $line2 = null;
-    private ?String $city = null;
-    private ?String $region = null;
-    private ?String $postalCode = null;
-    private ?String $country = null;
+    private ?string $line1 = null;
+    private ?string $line2 = null;
+    private ?string $city = null;
+    private ?string $region = null;
+    private ?string $postalCode = null;
+    private ?string $country = null;
     private ?Location $location = null;
 
     public function getLine1(): ?string

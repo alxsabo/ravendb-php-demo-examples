@@ -19,8 +19,6 @@ class JavascriptMapIndexTest extends RavenTestDriver
 
         $employees = (new JavascriptMapIndex())($runParams);
 
-        print_r($employees);
-
         $this->assertCount(1, $employees);
         $this->assertNotNull($employees[0]->getFirstName());
     }

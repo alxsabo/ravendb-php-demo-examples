@@ -4,8 +4,8 @@ namespace RavenDB\Demo\common\models;
 
 class Contact
 {
-    private ?String $name = null;
-    private ?String $title = null;
+    private ?string $name = null;
+    private ?string $title = null;
 
     public function getName(): ?string
     {

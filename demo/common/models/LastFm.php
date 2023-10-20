@@ -7,10 +7,10 @@ use RavenDB\Type\StringList;
 
 class LastFm
 {
-    private ?String $id = null;
-    private ?String $artist = null;
-    private ?String $trackId = null;
-    private ?String $title = null;
+    private ?string $id = null;
+    private ?string $artist = null;
+    private ?string $trackId = null;
+    private ?string $title = null;
     private ?DateTime $timeStamp = null;
     private ?StringList $tags = null;
 

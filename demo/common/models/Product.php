@@ -4,11 +4,11 @@ namespace RavenDB\Demo\common\models;
 
 class Product
 {
-    private ?String $id = null;
-    private ?String $name = null;
-    private ?String $supplier = null;
-    private ?String $category = null;
-    private ?String $quantityPerUnit = null;
+    private ?string $id = null;
+    private ?string $name = null;
+    private ?string $supplier = null;
+    private ?string $category = null;
+    private ?string $quantityPerUnit = null;
     private ?float $pricePerUnit = null;
     private ?int $unitsInStock = null;
     private ?int $unitsOnOrder = null;

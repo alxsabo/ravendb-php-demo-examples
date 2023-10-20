@@ -4,13 +4,13 @@ namespace RavenDB\Demo\common\models;
 
 class Company
 {
-    private ?String $id = null;
-    private ?String $externalId = null;
-    private ?String $name = null;
+    private ?string $id = null;
+    private ?string $externalId = null;
+    private ?string $name = null;
     private ?Contact $contact = null;
     private ?Address $address = null;
-    private ?String $phone = null;
-    private ?String $fax = null;
+    private ?string $phone = null;
+    private ?string $fax = null;
 
     public function getId(): ?string
     {

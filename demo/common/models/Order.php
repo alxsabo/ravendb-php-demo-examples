@@ -6,14 +6,14 @@ use DateTime;
 
 class Order
 {
-    private ?String $id = null;
-    private ?String $company = null;
-    private ?String $employee = null;
+    private ?string $id = null;
+    private ?string $company = null;
+    private ?string $employee = null;
     private ?DateTime $orderedAt = null;
     private ?DateTime $requireAt = null;
     private ?DateTime $shippedAt = null;
     private ?Address $shipTo = null;
-    private ?String $shipVia = null;
+    private ?string $shipVia = null;
     private ?float $freight = null;
     private ?OrderLineList $lines = null;
 

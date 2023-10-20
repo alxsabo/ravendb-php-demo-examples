@@ -4,9 +4,9 @@ namespace RavenDB\Demo\common\models;
 
 class Territory
 {
-    private ?String $code = null;
-    private ?String $name = null;
-    private ?String $area = null;
+    private ?string $code = null;
+    private ?string $name = null;
+    private ?string $area = null;
 
     public function getCode(): ?string
     {

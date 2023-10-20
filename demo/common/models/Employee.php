@@ -8,16 +8,16 @@ use Symfony\Component\Serializer\Annotation\SerializedName;
 
 class Employee
 {
-    private ?String $id = null;
+    private ?string $id = null;
     private ?String $LastName = null;
     private ?String $FirstName = null;
-    private ?String $Title = null;
+    private ?string $Title = null;
     private ?Address $Address = null;
     private ?DateTime $HiredAt = null;
     private ?DateTime $Birthday = null;
-    private ?String $HomePhone = null;
-    private ?String $Extension = null;
-    private ?String $ReportsTo = null;
+    private ?string $HomePhone = null;
+    private ?string $Extension = null;
+    private ?string $ReportsTo = null;
     private ?StringArray $Notes = null;
     private ?StringArray $Territories = null;
 
@@ -36,9 +36,9 @@ class Employee
         return $this->LastName;
     }
 
-    public function setLastName(?string $LastName): void
+    public function setLastName(?string $lastName): void
     {
-        $this->LastName = $LastName;
+        $this->LastName = $lastName;
     }
 
     public function getFirstName(): ?string

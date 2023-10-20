@@ -4,8 +4,8 @@ namespace RavenDB\Demo\common\models;
 
 class Region
 {
-    private ?String $id = null;
-    private ?String $name = null;
+    private ?string $id = null;
+    private ?string $name = null;
     private ?TerritoryList $territories = null;
 
     public function getId(): ?string

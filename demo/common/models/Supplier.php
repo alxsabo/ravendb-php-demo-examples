@@ -4,13 +4,13 @@ namespace RavenDB\Demo\common\models;
 
 class Supplier
 {
-    private ?String $id = null;
+    private ?string $id = null;
     private ?Contact $contact = null;
-    private ?String $name = null;
+    private ?string $name = null;
     private ?Address $address = null;
-    private ?String $phone = null;
-    private ?String $fax = null;
-    private ?String $homePage = null;
+    private ?string $phone = null;
+    private ?string $fax = null;
+    private ?string $homePage = null;
 
     public function getId(): ?string
     {

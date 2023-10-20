@@ -4,9 +4,9 @@ namespace RavenDB\Demo\common\models;
 
 class Category
 {
-    private ?String $id = null;
-    private ?String $name = null;
-    private ?String $description = null;
+    private ?string $id = null;
+    private ?string $name = null;
+    private ?string $description = null;
 
     public function getId(): ?string
     {

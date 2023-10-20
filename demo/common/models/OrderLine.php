@@ -4,8 +4,8 @@ namespace RavenDB\Demo\common\models;
 
 class OrderLine
 {
-    private ?String $product = null;
-    private ?String $productName = null;
+    private ?string $product = null;
+    private ?string $productName = null;
     private ?float $pricePerUnit = null;
     private ?int $quantity = null;
     private ?float $discount = null;

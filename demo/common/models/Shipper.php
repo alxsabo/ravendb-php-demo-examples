@@ -4,9 +4,9 @@ namespace RavenDB\Demo\common\models;
 
 class Shipper
 {
-    private ?String $id = null;
-    private ?String $name = null;
-    private ?String $phone = null;
+    private ?string $id = null;
+    private ?string $name = null;
+    private ?string $phone = null;
 
     public function getId(): ?string
     {
