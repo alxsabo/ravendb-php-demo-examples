@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests\multiMapIndex;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\multiMapIndex\multiMapIndexBasic\CompaniesAndSuppliers_ByName;
@@ -9,7 +9,7 @@ use RavenDB\Demo\multiMapIndex\multiMapIndexCustomizedFields\Contacts_ByNameAndT
 use RavenDB\Demo\multiMapIndex\multiMapIndexCustomizedFields\MultiMapIndexCustomizedFields;
 use RavenDB\Demo\multiMapIndex\multiMapReduceIndex\CityCommerceDetails;
 use RavenDB\Demo\multiMapIndex\multiMapReduceIndex\MultiMapReduceIndex;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class MultiMapIndexTest extends RavenTestDriver
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests;
+namespace RavenDB\Tests\driver;
 
 use PHPUnit\Framework\TestCase;
 use RavenDB\Constants\DocumentsIndexing;

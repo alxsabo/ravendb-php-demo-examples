@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests\attachments;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\attachments\indexAttachmentDetails\Employees_ByAttachmentDetails;
 use RavenDB\Demo\attachments\indexAttachmentDetails\IndexAttachmentDetails;
@@ -8,7 +8,7 @@ use RavenDB\Demo\attachments\loadAttachment\LoadAttachment;
 use RavenDB\Demo\attachments\storeAttachment\StoreAttachment;
 use RavenDB\Demo\common\DocumentStoreHolder;
 
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class AttachmentsTest extends RavenTestDriver
 {

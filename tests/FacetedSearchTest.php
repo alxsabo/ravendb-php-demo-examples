@@ -1,13 +1,13 @@
 <?php
 
-namespace RavenDB\Tests\facetedSearch;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\facetedSearch\facetsAggregations\FacetsAggregations;
 use RavenDB\Demo\facetedSearch\facetsBasics\FacetsBasics;
 use RavenDB\Demo\facetedSearch\facetsFromDocument\FacetsFromDocument;
 use RavenDB\Demo\facetedSearch\facetsOptions\FacetsOptions;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class FacetedSearchTest extends RavenTestDriver
 {

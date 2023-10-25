@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests\basics;
+namespace RavenDB\Tests;
 
 use PHPUnit\Framework\TestCase;
 use RavenDB\Demo\basics\createDocument\CreateDocument;

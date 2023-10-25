@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests\relatedDocuments;
+namespace RavenDB\Tests;
 
 use PHPUnit\Framework\TestCase;
 use RavenDB\Demo\common\DocumentStoreHolder;

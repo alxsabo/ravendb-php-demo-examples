@@ -1,12 +1,12 @@
 <?php
 
-namespace RavenDB\Tests\spatialIndexes;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\spatial\spatialIndex\Companies_ByLocation;
 use RavenDB\Demo\spatial\spatialIndex\SpatialIndex;
 use RavenDB\Demo\spatial\spatialQuery\SpatialQuery;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class SpatialIndexesTest extends RavenTestDriver
 {

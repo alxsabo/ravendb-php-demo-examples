@@ -1,11 +1,11 @@
 <?php
 
-namespace RavenDB\Tests\autoIndexes;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\autoIndexes\autoMapIndex1\AutoMapIndex1;
 use RavenDB\Demo\autoIndexes\autoMapIndex2\AutoMapIndex2;
 use RavenDB\Demo\autoIndexes\autoMapReduceIndex\AutoMapReduceIndex;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class AutoIndexesTest extends RavenTestDriver
 {

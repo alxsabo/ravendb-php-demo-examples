@@ -1,11 +1,11 @@
 <?php
 
-namespace RavenDB\Tests\javascriptMapIndex;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\javascriptIndexes\javascriptMapIndex\Employees_ByImportantDetailsJS;
 use RavenDB\Demo\javascriptIndexes\javascriptMapIndex\JavascriptMapIndex;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class JavascriptMapIndexTest extends RavenTestDriver
 {

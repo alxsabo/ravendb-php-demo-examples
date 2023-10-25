@@ -1,11 +1,11 @@
 <?php
 
-namespace RavenDB\Tests\revisions;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\common\models\Company;
 use RavenDB\Demo\revisions\getRevisions\GetRevisions;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class RevisionsTest extends RavenTestDriver
 {

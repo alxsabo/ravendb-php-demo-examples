@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests\queries;
+namespace RavenDB\Tests;
 
 use PHPUnit\Framework\TestCase;
 use RavenDB\Demo\queries\filteringResultsBasics\FilteringResultsBasics;

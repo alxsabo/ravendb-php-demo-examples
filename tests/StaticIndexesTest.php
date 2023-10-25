@@ -1,6 +1,6 @@
 <?php
 
-namespace RavenDB\Tests\staticIndexes;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\staticIndexes\additionalSourcesIndex\AdditionalSourcesIndex;
@@ -15,7 +15,7 @@ use RavenDB\Demo\staticIndexes\projectIndexResults\Employees_ByWorkPeriod;
 use RavenDB\Demo\staticIndexes\projectIndexResults\ProjectIndexResults;
 use RavenDB\Demo\staticIndexes\storeFieldsInIndex\OrdersQuantity_ByCompany;
 use RavenDB\Demo\staticIndexes\storeFieldsInIndex\StoreFieldsInIndex;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class StaticIndexesTest extends RavenTestDriver
 {

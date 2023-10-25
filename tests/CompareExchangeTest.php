@@ -1,12 +1,12 @@
 <?php
 
-namespace RavenDB\Tests\compareExchange;
+namespace RavenDB\Tests;
 
 use RavenDB\Demo\common\DocumentStoreHolder;
 use RavenDB\Demo\compareExchange\createCompareExchange\CreateCompareExchange;
 use RavenDB\Demo\compareExchange\indexCompareExchange\IndexCompareExchange;
 use RavenDB\Demo\compareExchange\indexCompareExchange\Products_ByUnitsInStock;
-use RavenDB\Tests\RavenTestDriver;
+use RavenDB\Tests\driver\RavenTestDriver;
 
 class CompareExchangeTest extends RavenTestDriver
 {
